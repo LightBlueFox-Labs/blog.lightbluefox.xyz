@@ -1,0 +1,36 @@
+.large_header{
+    background-color: rgb(25, 131, 201);
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    position: relative;
+}
+
+.main_header_banner {
+    padding-bottom: 50vh;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.main_header_banner h1{
+    font-size: 44px;
+}
+
+.large_header a{
+    display: inline-block;
+    color: white;
+    padding: 25px;
+    padding: 30px;
+    transition: background-color 1s;
+    margin: 0px;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+
+.large_header a:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
